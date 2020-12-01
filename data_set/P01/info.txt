@@ -1,0 +1,6 @@
+P01 is a set of 10 weights and profits for a knapsack of capacity 165.
+.
+├── p01_c.txt, the knapsack capacity
+├── p01_p.txt, the weights of the objects
+├── p01_s.txt, the profits of each object
+└── p01_w.txt, the optimal selection of weights

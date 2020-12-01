@@ -1,0 +1,6 @@
+P04 is a set of 7 weights and profits for a knapsack of capacity 50.
+.
+├── p04_c.txt, the knapsack capacity
+├── p04_p.txt, the weights of the objects
+├── p04_s.txt, the profits of each object
+└── p04_w.txt, the optimal selection of weights

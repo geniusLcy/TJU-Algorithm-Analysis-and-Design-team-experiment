@@ -1,0 +1,6 @@
+P07 is a set of 15 weights and profits for a knapsack of capacity 750, from Kreher and Stinson, with an optimal profit of 1458.
+.
+├── p07_c.txt, the knapsack capacity
+├── p07_p.txt, the weights of the objects
+├── p07_s.txt, the profits of each object
+└── p07_w.txt, the optimal selection of weights

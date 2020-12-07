@@ -1,6 +1,6 @@
 P06 is a set of 7 weights and profits for a knapsack of capacity 170. The knapsack can be packed to an optimal weight of 169.
 .
 ├── p06_c.txt, the knapsack capacity
-├── p06_p.txt, the weights of the objects
-├── p06_s.txt, the profits of each object
-└── p06_w.txt, the optimal selection of weights
+├── p06_w.txt, the weights of the objects
+├── p06_p.txt, the profits of each object
+└── p06_s.txt, the optimal selection of weights

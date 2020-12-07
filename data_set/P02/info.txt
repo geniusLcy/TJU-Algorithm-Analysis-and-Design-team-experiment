@@ -1,6 +1,6 @@
 P02 is a set of 5 weights and profits for a knapsack of capacity 26.
 .
 ├── p02_c.txt, the knapsack capacity
-├── p02_p.txt, the weights of the objects
-├── p02_s.txt, the profits of each object
-└── p02_w.txt, the optimal selection of weights
+├── p02_w.txt, the weights of the objects
+├── p02_p.txt, the profits of each object
+└── p02_s.txt, the optimal selection of weights

@@ -1,6 +1,6 @@
 P03 is a set of 6 weights and profits for a knapsack of capacity 190.
 .
 ├── p03_c.txt, the knapsack capacity
-├── p03_p.txt, the weights of the objects
-├── p03_s.txt, the profits of each object
-└── p03_w.txt, the optimal selection of weights
+├── p03_w.txt, the weights of the objects
+├── p03_p.txt, the profits of each object
+└── p03_s.txt, the optimal selection of weights

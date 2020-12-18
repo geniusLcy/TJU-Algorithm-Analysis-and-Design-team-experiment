@@ -42,6 +42,16 @@
 
 # 小组选题任务: 动态规划法、回溯法、分支限界法求解0/1背包问题
 
+## General
+
+```
+./algorithm_exp/
+├── README.md           --README文件
+├── data_set            --数据集：Florida State University
+└── dp_solution         --动态规划算法解决方案
+
+2 directories, 1 file
+```
 
 ## 数据集说明
 
@@ -85,6 +95,13 @@ P01 is a set of 10 weights and profits for a knapsack of capacity 165.
 └── p01_s.txt, the optimal selection of weights
 
 ```
+
+## 编译运行环境说明
+
+- OS: Windows 10
+- g++ version: 8.1.0
+
+由于OS不同可能导致路径表示方式不同，在非 Windows 操作系统下请自行修改 `*_file_ver.cpp` 中的表示路径。
 
 ## 动态规划算法解决方案
 

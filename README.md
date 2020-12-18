@@ -38,15 +38,14 @@
 
 - Unicauca University: 31 个数据集。[Link](http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/)
 
+----------
 
+# 小组选题任务: 动态规划法、回溯法、分支限界法求解0/1背包问题
 
-## 小组任务
-
-> 动态规划法、回溯法、分支限界法求解0/1背包问题
 
 ## 数据集说明
 
-于`data_set`目录下，采用Florida State University提供的8个数据集：
+于 `data_set` 目录下，采用 Florida State University 提供的8个数据集：
 
 ``` bash
 ./data_set
@@ -62,7 +61,7 @@
 8 directories, 0 files
 ```
 
-`P01 - P08`为对应的数据集，对于其中的每个数据集(以下均以P01为例)，目录结构如下：
+`P01 - P08` 为对应的数据集，对于其中的每个数据集(以下均以P01为例)，目录结构如下：
 
 ``` bash
 ./data_set/P01
@@ -75,7 +74,7 @@
 0 directories, 5 files
 ```
 
-`info.txt`为自行添加的描述文件，记录对于数据集的具体描述，不包含于原Florida State University所提供的数据集中。查看`info.txt`可以得到对于当前数据集以及其中各个文件的解释：
+`info.txt` 为自行添加的描述文件，记录对于数据集的具体描述，不包含于原 Florida State University 所提供的数据集中。查看 `info.txt` 可以得到对于当前数据集以及其中各个文件的解释：
 
 ``` 
 P01 is a set of 10 weights and profits for a knapsack of capacity 165.
@@ -87,4 +86,15 @@ P01 is a set of 10 weights and profits for a knapsack of capacity 165.
 
 ```
 
+## 动态规划算法解决方案
+
+于 `dp_solution` 目录下:
+
+```
+./dp_solution
+├── dp_file_ver.cpp     --自动从 data_set 读取数据集进行测试，打印输出结果
+└── dp_manual_ver.cpp   --可以手动键入数据测试算法
+
+0 directories, 2 files
+```
 

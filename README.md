@@ -91,7 +91,7 @@ P01 is a set of 10 weights and profits for a knapsack of capacity 165.
 于 `dp_solution` 目录下:
 
 ```
-./dp_solution
+./dp_solution           --核心算法为 solution 函数
 ├── dp_file_ver.cpp     --自动从 data_set 读取数据集进行测试，打印输出结果
 └── dp_manual_ver.cpp   --可以手动键入数据测试算法
 

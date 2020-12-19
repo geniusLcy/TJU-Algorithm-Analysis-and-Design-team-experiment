@@ -35,7 +35,7 @@ g++ .\*_file_ver.cpp -o *_file_ver
 
 于 `data_set` 目录下，采用 Florida State University 提供的8个[数据集](https://people.sc.fsu.edu/~jburkardt/datasets/knapsack_01/knapsack_01.html)：
 
-``` bash
+```
 ./data_set
 ├── P01
 ├── P02

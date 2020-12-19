@@ -44,13 +44,14 @@
 
 ## General
 
-```
+```      
 ./algorithm_exp/
-├── README.md           --README文件
-├── data_set            --数据集：Florida State University
-└── dp_solution         --动态规划算法解决方案
+├── README.md                   --README文件
+├── branchAndBound_solution     --分支限界算法解决方案
+├── data_set                    --数据集：Florida State University
+└── dp_solution                 --动态规划算法解决方案
 
-2 directories, 1 file
+3 directories, 1 file
 ```
 
 ## 数据集说明
@@ -115,3 +116,14 @@ P01 is a set of 10 weights and profits for a knapsack of capacity 165.
 0 directories, 2 files
 ```
 
+## 分支限界算法解决方案
+
+于 `branchAndBound_solution` 目录下:
+
+```
+./branchAndBound_solution/
+├── branchAndBound_file_ver.cpp     --自动从 data_set 读取数据集进行测试，打印输出结果
+└── branchAndBound_manual_ver.cpp   --可以手动键入数据测试算法
+
+0 directories, 2 files
+```

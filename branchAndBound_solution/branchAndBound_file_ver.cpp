@@ -122,10 +122,10 @@ int main()
     for(int i = 1; i <= 8; i++)
     {
         //获取存放背包的容量、物品的价值、物品的重量、物品的选择结果的数据的文件的文件名
-        string data_set_c = "algorithm_exp-main\\data_set\\";
-        string data_set_p = "algorithm_exp-main\\data_set\\";
-        string data_set_w = "algorithm_exp-main\\data_set\\";
-        string data_set_s = "algorithm_exp-main\\data_set\\";
+        string data_set_c = "..\\data_set\\";
+        string data_set_p = "..\\data_set\\";
+        string data_set_w = "..\\data_set\\";
+        string data_set_s = "..\\data_set\\";
         string num;
         stringstream aa;
         aa << i;

@@ -176,7 +176,7 @@ int main(){
                 break;
             }
         if(dsi > 1) cout << endl;
-        cout << "Data set " << dsi << (flag ? " passed!" : " failed!") << endl;
+        cout << "Data set " << dsi << (flag ? " passed!" : " failed!");
         if(!flag){
             cout << "Your optimal selection:";
             cout << x[0]; for(int i = 1; i < n; i ++) cout << " " << x[i]; cout << endl;

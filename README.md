@@ -4,14 +4,15 @@
 
 ## General
 
-```      
+```
 ./algorithm_exp/
 ├── README.md                   --README文件
-├── branchAndBound_solution     --分支限界算法解决方案
+├── backTracking_solution       --回溯法解决方案
+├── branchAndBound_solution     --分支限界法解决方案
 ├── data_set                    --数据集：Florida State University
 └── dp_solution                 --动态规划算法解决方案
 
-3 directories, 1 file
+4 directories, 1 file
 ```
 
 数据集放置于 `data_set` 目录下，各个算法解决方案放置于 `*_solution` 目录下。所有 `*_solution` 目录下有 `*_file_ver.cpp` 和 `*_manual_ver.cpp` 2个文件 ，二者算法完全一致。前者预设路径，会自动从 `data_set` 读取数据并最终验证正确性输出结果；后者可以读取控制台键入的数据并运行算法求解，最后输出结果。
@@ -82,6 +83,18 @@ P01 is a set of 10 weights and profits for a knapsack of capacity 165.
 ./dp_solution           --核心算法为 solution 函数
 ├── dp_file_ver.cpp     --自动从 data_set 读取数据集进行测试，打印输出结果
 └── dp_manual_ver.cpp   --可以手动键入数据测试算法
+
+0 directories, 2 files
+```
+
+## 回溯法解决方案
+
+于 `backTracking_solution` 目录下:
+
+```
+./backTracking_solution/
+├── backTracking_file_ver.cpp     --自动从 data_set 读取数据集进行测试，打印输出结果
+└── backTracking_manual_ver.cpp   --可以手动键入数据测试算法
 
 0 directories, 2 files
 ```

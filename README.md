@@ -1,4 +1,4 @@
-Note: Experiment has finished, this repository will be **archived**.
+> Note: Experiment has finished, this repository will be **archived**.
 
 # 《算法分析与设计》小组上机实验
 

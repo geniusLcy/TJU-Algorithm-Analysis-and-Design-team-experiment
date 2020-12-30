@@ -1,3 +1,5 @@
+Note: Experiment has finished, this repository will be **archived**.
+
 # 《算法分析与设计》小组上机实验
 
 ## 动态规划法、回溯法、分支限界法求解0/1背包问题
